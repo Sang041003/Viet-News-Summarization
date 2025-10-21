@@ -1,0 +1,53 @@
+{
+  "best_global_step": 100,
+  "best_metric": 45.9677,
+  "best_model_checkpoint": "./vit5_summarization_model_results\\checkpoint-100",
+  "epoch": 0.03333333333333333,
+  "eval_steps": 100,
+  "global_step": 100,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.03333333333333333,
+      "grad_norm": 1.1541584730148315,
+      "learning_rate": 0.00022633333333333332,
+      "loss": 16.7373,
+      "step": 100
+    },
+    {
+      "epoch": 0.03333333333333333,
+      "eval_loss": 1.0969258546829224,
+      "eval_rouge1": 73.0151,
+      "eval_rouge2": 45.9677,
+      "eval_rougeL": 61.6954,
+      "eval_rougeLsum": 61.6984,
+      "eval_runtime": 453.887,
+      "eval_samples_per_second": 0.22,
+      "eval_steps_per_second": 0.22,
+      "step": 100
+    }
+  ],
+  "logging_steps": 100,
+  "max_steps": 3000,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 1,
+  "save_steps": 100,
+  "stateful_callbacks": {
+    "TrainerControl": {
+      "args": {
+        "should_epoch_stop": false,
+        "should_evaluate": false,
+        "should_log": false,
+        "should_save": true,
+        "should_training_stop": false
+      },
+      "attributes": {}
+    }
+  },
+  "total_flos": 1223351599104000.0,
+  "train_batch_size": 1,
+  "trial_name": null,
+  "trial_params": null
+}
